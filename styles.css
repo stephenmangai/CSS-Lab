@@ -1,0 +1,49 @@
+body {
+    font-family: 'Courgette', cursive;
+    background-color: lightgrey;
+}
+h2, p, .readme-wrapper {
+    text-align: center;
+}
+.readme-wrapper, a {
+    text-decoration: none;
+    color: rgb(41, 14, 136);
+}
+a:hover {
+   cursor: pointer;
+   font-size: large; 
+   color: maroon;
+}
+span {
+    color: green;
+    font-weight: 400;
+}
+.boxes {
+    margin: 1em;
+    padding: 0 0.5em;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30em;
+    display: block;
+}
+#box1 {
+    background-color: burlywood;
+}
+#box2 {
+    background-color: cadetblue;
+}
+#box3 {
+    background-color: chartreuse;
+}
+#box4 {
+    background-color: chocolate;
+}
+.after-box {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: darkred;
+    position: relative;
+    bottom: -50px;
+    left: 8em;
+}
